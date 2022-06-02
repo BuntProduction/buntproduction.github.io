@@ -1,5 +1,5 @@
 .headersearch{
-	padding-right: 1009px;
+	padding-right: 100px;
 }
 
 .titlestyle{
@@ -28,7 +28,7 @@
 	margin-left: 150px;
 	margin-top: -70px;
 	border: 1px grey solid;
-	width: 20%;
+	width: 28%;
 	border-radius: 15px;
 	overflow: hidden;
 }
@@ -49,8 +49,40 @@
 	margin-top: 0.55%;
 }
 
+.musicButton{
+	float: left;
+}
+
+/*no class because there is no other a or table balise*/
+a{
+	text-decoration: none;
+	color: black;
+}
+table{
+	border-collapse: collapse;
+	background-color: white;
+}
+td{
+	padding-right: 30px;
+	padding-left: 30px;
+	border: 1px solid black;
+}
+td:hover{
+	background-color: #E3E3E3;
+}
+
+.gatienDef{
+	font-family: 'FuturaBold', Arial;
+	font-size: 2.3em;
+	font-style: bold;
+}
+
 
 @font-face{
 	font-family: 'FuturaLight';
 	src:  url('FuturaPTLight.otf');
+}
+@font-face{
+	font-family: 'FuturaBook';
+	src:  url('FuturaPTBook.otf');
 }

@@ -7,18 +7,31 @@
 	<title>Profil - Gatien Bigaré</title>
 </head>
 <body>
+	<div class="headersearch">
 	<h1 class="titlestyle"><span class="gcolor">G</span><span class="acolor">a</span><span class="tcolor">t</span><span class="icolor">i</span><span class="ecolor">e</span><span class="ncolor">n</span></h1>
 	<p class="searchbar">
 		<input onkeypress="if(event.key == 'Enter') {console.log('Enter is pressed'); myFunction()}" type="text" name="search" id="search"><input type="image" src="searchicon.png" onclick="myFunction()" class="searchButton" align="right" />
 	</p>
+	</div>
+	<table>
+		<tr>
+			<td><a href="./pageprofil.html">Profil</a></td>
+			<td><a href="./pageprofil.html">Formations</a></td>
+			<td><a href="./pageprofil.html">Projets</a></td>
+			<td><a href="./pageprofil.html">Contact</a></td>
+		</tr>
+	</table>
 	
-	
-	<input type="button" value="sound" onclick="playMusic()" />
-
+	<section>
+	<input type="button" value="sound" onclick="playMusic()" class="musicButton" />
+	<p class="gatienDef">gatien bigaré</p>
+	<p class="gatienSousTitre">20 ans, passionné d'informatique</p>
+	<article></article>
+	</section>
 	<!--All my scripts-->
 	<script src="scriptletters.js"></script>
 	<script src="script.js"></script>
 	<script type="text/javascript" src="scriptsound.js"></script>
-	
+
 </body>
 </html>
