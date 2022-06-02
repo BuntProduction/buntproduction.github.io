@@ -1,0 +1,78 @@
+.titlestyle{
+	font-size: 8em;
+	font-family: 'FuturaLight', Arial;
+	text-align: center;
+	margin-top: 10%;
+
+}
+
+.gcolor, .icolor{
+	color : #4285F4;
+}
+.acolor, .ncolor{
+	color : #EA4335;
+}
+.tcolor{
+	color : #FBBC05;
+}
+/*.icolor{              //useless because it's the same color as the G
+	color : #4285F4;
+}*/
+.ecolor{
+	color : #34A853;
+}
+/*.ncolor{
+	color : #EA4335;
+}*/
+
+.searchbar{
+	margin: auto;
+	margin-top: -3%;
+	border: 1px grey solid;
+	width: 30%;
+	border-radius: 15px;
+	overflow: hidden;
+}
+#search{
+	margin-left: 10px;
+	border-style: hidden;
+	outline: none;
+	font-size: 20px;
+	padding-bottom: 0.4%;
+	text-align: left;
+
+}
+
+.searchButton{
+	width: 1.8em;
+	margin-right: 1.2%;
+	margin-top: 0.55%;
+}
+/*
+.interrogationpoint{
+	text-align: right;
+	font-size: 2em;
+	color : #4285F4;
+}
+.interrogationpoint:hover{
+	color: #EA4335;
+}*/
+
+.buttons{
+	text-align: center;
+	margin-top: 1%;
+
+
+}
+.buttonclass1, .buttonclass2{
+	border-radius: 15px;
+	border-width: 0px;
+	width: 10%;
+	font-size: 1.2em;
+}
+
+
+@font-face{
+	font-family: 'FuturaLight';
+	src:  url('FuturaPTLight.otf');
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>Portfolio Gatien B.</title>
+</head>
+<body>
+	<h1 class="titlestyle"><span class="gcolor">G</span><span class="acolor">a</span><span class="tcolor">t</span><span class="icolor">i</span><span class="ecolor">e</span><span class="ncolor">n</span></h1>
+	<p class="searchbar">
+		<input onkeypress="if(event.key == 'Enter') {console.log('Enter is pressed'); myFunction()}" type="text" name="search" id="search" placeholder="Tapez votre recherche ici"><input type="image" src="searchicon.png" onclick="myFunction()" class="searchButton" align="right" />
+	</p>
+
+	
+
+	<div class="buttons">
+		<button class="buttonclass1">Suggestions</button>
+		<button class="buttonclass2">Sans rechercher</button>
+	</div>
+
+
+	<script>
+		function myFunction(){
+    var search = document.getElementById("search").value;
+    if (search == "Formation" || search == "formation"){
+        window.location = "file:///C:/Users/gatie/Documents/GitHub/Portfolio/" + search;
+    }else if (search == "Projet" || search == "projet" || search == "portfolio" || search == "Portfolio"){
+        window.location = "file:///C:/Users/gatie/Documents/GitHub/Portfolio/" + search;
+    }else{
+        return;
+    }
+}
+	</script>
+
+
+</body>
+</html>
