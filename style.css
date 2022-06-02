@@ -63,6 +63,7 @@
 .buttons{
 	text-align: center;
 	margin-top: 1%;
+
 }
 .buttonclass1, .buttonclass2{
 	border-radius: 15px;
@@ -73,6 +74,8 @@
 	background-color: white;
 	border-style: solid;
 	cursor: pointer;
+
+  	margin-bottom:  3px;
 }
 .buttonclass1:hover, .buttonclass2:hover{
 	background-color: #E3E3E3;
