@@ -1,0 +1,56 @@
+.headersearch{
+	padding-right: 1009px;
+}
+
+.titlestyle{
+	font-size: 3em;
+	font-family: 'FuturaLight', Arial;
+	text-align: left;
+	margin-top: 10px;
+
+}
+
+.gcolor, .icolor{
+	color : #4285F4;
+}
+.acolor, .ncolor{
+	color : #EA4335;
+}
+.tcolor{
+	color : #FBBC05;
+}
+.ecolor{
+	color : #34A853;
+}
+
+.searchbar{
+	margin: left;
+	margin-left: 150px;
+	margin-top: -70px;
+	border: 1px grey solid;
+	width: 20%;
+	border-radius: 15px;
+	overflow: hidden;
+}
+#search{
+	margin-left: 10px;
+	border-style: hidden;
+	outline: none;
+	font-size: 20px;
+	padding-bottom: 0.4%;
+	text-align: left;
+
+}
+
+
+.searchButton{
+	width: 1.8em;
+	margin-right: 1.2%;
+	margin-top: 0.55%;
+}
+
+
+@font-face{
+	font-family: 'FuturaLight';
+	src:  url('FuturaPTLight.otf');
+}
