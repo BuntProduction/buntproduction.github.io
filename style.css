@@ -43,6 +43,7 @@
 
 }
 
+
 .searchButton{
 	width: 1.8em;
 	margin-right: 1.2%;
@@ -61,16 +62,67 @@
 .buttons{
 	text-align: center;
 	margin-top: 1%;
-
-
 }
 .buttonclass1, .buttonclass2{
 	border-radius: 15px;
 	border-width: 0px;
-	width: 10%;
+	width: 200px;
 	font-size: 1.2em;
+	background-color: #e3e3e3;
+	cursor: pointer;
+}
+.buttonclass1:hover, .buttonclass2:hover{
+	background-color: #B3B4B5;
 }
 
+.suggestions-content{
+	border-style: solid;
+	border-width: 1px;
+	border-color: grey;
+	text-align: left;
+	display: none;
+  	width: 25%;
+  	margin: auto;
+  	margin-top: 1%;
+  	font-family: Arial;
+  	font-style: italic;
+  	border-radius: 5px;
+}
+.suggestions-content a{
+	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+}
+.suggestions-content a:hover{
+	background-color: #e3e3e3;
+	border-radius: 5px;
+}
+.show{
+	display: block;
+}
+
+@media all and (max-width:  1024px){
+	.searchbar{
+		width:  80%;
+	}
+	.titlestyle{
+		font-size: 6em;
+		margin-top: 8%;
+	}
+	.buttons{
+	margin-top: 5%;
+	}
+	.buttonclass1, .buttonclass2{
+	font-size: 1.3em;
+	}
+}
+
+@media all and (max-width:  1424px) and (min-width:  1025px){
+	.searchbar{
+		width:  50%;
+	}
+}
 
 @font-face{
 	font-family: 'FuturaLight';
