@@ -65,14 +65,16 @@
 }
 .buttonclass1, .buttonclass2{
 	border-radius: 15px;
-	border-width: 0px;
+	border-width: 2px;
 	width: 200px;
 	font-size: 1.2em;
-	background-color: #e3e3e3;
+	border-color: #E3E3E3;
+	background-color: white;
+	border-style: solid;
 	cursor: pointer;
 }
 .buttonclass1:hover, .buttonclass2:hover{
-	background-color: #B3B4B5;
+	background-color: #E3E3E3;
 }
 
 .suggestions-content{
