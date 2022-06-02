@@ -48,6 +48,7 @@
 	width: 1.8em;
 	margin-right: 1.2%;
 	margin-top: 0.55%;
+
 }
 /*
 .interrogationpoint{
@@ -119,7 +120,11 @@
 	font-size: 1.3em;
 	}
 }
-
+@media all and (max-width:  650px){
+	.searchbar{
+		width:  90%;
+	}
+}
 @media all and (max-width:  1424px) and (min-width:  1025px){
 	.searchbar{
 		width:  50%;
