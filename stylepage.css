@@ -64,6 +64,8 @@ a{
 	color: black;
 }
 table{
+	position: absolute;
+	margin-bottom: 20px;
 	border-collapse: collapse;
 	background-color: white;
 	margin-left: 9%;
