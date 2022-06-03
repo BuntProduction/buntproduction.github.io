@@ -1,3 +1,4 @@
+/*header style*/
 .headersearch{
 	padding-right: 100px;
 }
@@ -7,9 +8,11 @@
 	font-family: 'FuturaLight', Arial;
 	text-align: left;
 	margin-top: 10px;
-
 }
-
+.titlestyle:hover{
+	cursor: pointer;
+}
+/*logo style*/
 .gcolor, .icolor{
 	color : #4285F4;
 }
@@ -23,6 +26,7 @@
 	color : #34A853;
 }
 
+/*search bar style*/
 .searchbar{
 	margin: left;
 	margin-left: 150px;
@@ -41,8 +45,6 @@
 	text-align: left;
 
 }
-
-
 .searchButton{
 	width: 1.8em;
 	margin-right: 1.2%;
@@ -55,7 +57,9 @@
 	margin-right: 10px;
 }
 
-/*no class because there is no other a or table balise*/
+
+/*menu style
+	-no class because there is no other a or table balise*/
 a{
 	text-decoration: none;
 	color: black;
@@ -71,6 +75,7 @@ td{
 
 	display: inline;
 	font-family: 'FuturaLight', Arial;
+	font-size: 18px;
 	padding-right: 30px;
 	padding-left: 30px;
 }
@@ -97,7 +102,7 @@ td:hover a{
 	margin-left: 2%;
 }
 
-
+/*list style*/
 .articleTopSection{
 	width: 50%;
 	border-bottom: 1px solid #E3E3E3;
@@ -105,23 +110,22 @@ td:hover a{
 }
 
 .listArticleSection{
+	padding-left: 5%;
 	font-family: Arial;
 	float: left;
-	width: 60%;
+	width: 55%;
 	list-style-type: circle;
 }
+
 .listArticleSection li{
 	padding-bottom: 2px;
 }
 
-.questionsSection{
-	float: left;
-
-}
 
 .asideSection{
-	position: fixed;
-	margin-left: 60%;
+	position: relative;
+	float: right;
+	margin-right: 6%;
 	margin-top: -5%;
 	border: 2px solid grey;
 	border-radius: 8px;
@@ -166,26 +170,65 @@ td:hover a{
 .questions-content{
 	text-align: left;
 	display: none;
-  	width: 25%;
+  	width: 100%;
   	margin: auto;
   	margin-top: 1%;
   	font-family: Arial;
-  	font-style: italic;
 }
 .questions-content p{
-	border-bottom: 1px solid #e3e3e3;
 	color: black;
   	padding: 12px 16px;
   	text-decoration: none;
   	display: block;
 }
 .questions-content p:hover{
-	background-color: #e3e3e3;
+	background-color: #f5f5f5;
 }
 .show{
 	display: block;
 }
+.questionsDiv{
+	margin-left: 5%;
+	margin-right: 50%;
+	font-family: Arial;
+	border-bottom: 1px solid #e3e3e3;
+	width: 30%;
+}
+.questionsDiv:hover{
+	border-bottom: 1px solid grey;
+	cursor: pointer;
+}
+.questionsText{
+	margin-left: 5%;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.arrowImg{
+	width: 12px;
+	margin-top: 3px;
+	float: right;
+	transform: rotate(0deg);
+	transition: 0.5s;
+}
+.questionsDiv:hover .arrowImg{
+	transform: rotate(90deg);
+	transition: 0.5s;
+}
 
+/* test with an hr in the answers questions
+.hrAnswers{
+	margin-left: -16.7%;
+
+	width: 133%;
+	height: 1px;
+	background-color: #E3E3E3;
+	border-style: inset; 
+	border: none;
+}*/
 
 /*fonts*/
 @font-face{

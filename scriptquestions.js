@@ -3,3 +3,11 @@ document.getElementById("buttonQuestions").onclick = function() {myButtonFunctio
 function myButtonFunction(){
   document.getElementById("myAnswers").classList.toggle("show");
 }
+document.getElementById("buttonQuestions2").onclick = function() {myButtonFunction2()};
+function myButtonFunction2(){
+  document.getElementById("myAnswers2").classList.toggle("show");
+}
+document.getElementById("buttonQuestions3").onclick = function() {myButtonFunction3()};
+function myButtonFunction3(){
+  document.getElementById("myAnswers3").classList.toggle("show");
+}
