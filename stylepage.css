@@ -54,9 +54,6 @@
 	width: 40px;
 	margin-right: 10px;
 }
-.gatienSousTitre{
-	color: grey;
-}
 
 /*no class because there is no other a or table balise*/
 a{
@@ -71,6 +68,8 @@ table{
 	margin-left: 9%;
 }
 td{
+
+	display: inline;
 	font-family: 'FuturaLight', Arial;
 	padding-right: 30px;
 	padding-left: 30px;
@@ -84,11 +83,35 @@ td:hover a{
 }
 
 .gatienDef{
+	margin-top: 7%;
 	font-family: 'FuturaBold', Arial;
 	font-size: 2.3em;
 	font-style: bold;
 }
 
+.gatienSousTitre{
+	margin-top: -15px;
+	padding-left: 3%;
+	color: grey;
+	font-family: Arial;
+	margin-left: 2%;
+}
+
+.articleTopSection{
+	width: 50%;
+	border-bottom: 1px solid #E3E3E3;
+	margin-left: 2%;
+}
+
+.listArticleSection{
+	font-family: Arial;
+	float: left;
+	width: 50%;
+	list-style-type: circle;
+}
+.listArticleSection li{
+	padding-bottom: 2px;
+}
 
 .asideSection{
 	float: right;
@@ -138,4 +161,8 @@ td:hover a{
 @font-face{
 	font-family: 'FuturaBook';
 	src:  url('FuturaPTBook.otf');
+}
+
+@media all and (max-width:  1024px){
+
 }
