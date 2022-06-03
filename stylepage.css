@@ -97,6 +97,7 @@ td:hover a{
 	margin-left: 2%;
 }
 
+
 .articleTopSection{
 	width: 50%;
 	border-bottom: 1px solid #E3E3E3;
@@ -106,15 +107,21 @@ td:hover a{
 .listArticleSection{
 	font-family: Arial;
 	float: left;
-	width: 50%;
+	width: 60%;
 	list-style-type: circle;
 }
 .listArticleSection li{
 	padding-bottom: 2px;
 }
 
+.questionsSection{
+	float: left;
+
+}
+
 .asideSection{
-	float: right;
+	position: fixed;
+	margin-left: 60%;
 	margin-top: -5%;
 	border: 2px solid grey;
 	border-radius: 8px;
@@ -154,6 +161,33 @@ td:hover a{
 	border-style: inset; 
 	border:  none;
 }
+
+/*questions menu*/
+.questions-content{
+	text-align: left;
+	display: none;
+  	width: 25%;
+  	margin: auto;
+  	margin-top: 1%;
+  	font-family: Arial;
+  	font-style: italic;
+}
+.questions-content p{
+	border-bottom: 1px solid #e3e3e3;
+	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+}
+.questions-content p:hover{
+	background-color: #e3e3e3;
+}
+.show{
+	display: block;
+}
+
+
+/*fonts*/
 @font-face{
 	font-family: 'FuturaLight';
 	src:  url('FuturaPTLight.otf');
@@ -163,6 +197,7 @@ td:hover a{
 	src:  url('FuturaPTBook.otf');
 }
 
+/*responsive*/
 @media all and (max-width:  1024px){
 
 }
