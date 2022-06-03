@@ -66,14 +66,19 @@ a{
 table{
 	border-collapse: collapse;
 	background-color: white;
+	margin-left: 9%;
 }
 td{
+	font-family: 'FuturaLight', Arial;
 	padding-right: 30px;
 	padding-left: 30px;
-	border: 1px solid black;
 }
 td:hover{
-	background-color: #E3E3E3;
+	font-family: 'FuturaBook', Arial;
+	border-bottom: 2px solid #4285F4;
+}
+td:hover a{
+	color: #4285F4;
 }
 
 .gatienDef{
@@ -85,6 +90,7 @@ td:hover{
 
 .asideSection{
 	float: right;
+	margin-top: -5%;
 	border: 2px solid grey;
 	border-radius: 8px;
 	background: url("photoprofilcarre.jpg") fixed no-repeat top right;
@@ -93,10 +99,13 @@ td:hover{
 }
 .titreAside{
 	font-family: 'FuturaBook', Arial;
+	padding-left: 12px;
+	margin-bottom: -10px;
 }
 .sousTitreAside{
 	font-family: 'FuturaLight', Arial;
 	color: grey;
+	padding-left: 12px;
 }
 .photoProfil{
 	width: 500px;
@@ -110,10 +119,16 @@ td:hover{
 	font-style: italic;
 }
 .asideSection p{
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 12px;
 }
 
+.barHr{
+	width: 85%;
+	height: 1px;
+	background-color: #E3E3E3;
+	border-style: inset; 
+	border:  none;
+}
 @font-face{
 	font-family: 'FuturaLight';
 	src:  url('FuturaPTLight.otf');
