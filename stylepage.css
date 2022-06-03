@@ -51,6 +51,11 @@
 
 .musicButton{
 	float: left;
+	width: 40px;
+	margin-right: 10px;
+}
+.gatienSousTitre{
+	color: grey;
 }
 
 /*no class because there is no other a or table balise*/
@@ -77,6 +82,37 @@ td:hover{
 	font-style: bold;
 }
 
+
+.asideSection{
+	float: right;
+	border: 2px solid grey;
+	border-radius: 8px;
+	background: url("photoprofilcarre.jpg") fixed no-repeat top right;
+	background-size: 200px;
+	overflow: hidden;
+}
+.titreAside{
+	font-family: 'FuturaBook', Arial;
+}
+.sousTitreAside{
+	font-family: 'FuturaLight', Arial;
+	color: grey;
+}
+.photoProfil{
+	width: 500px;
+	border-bottom: 2px solid #E3E3E3;
+}
+.textAside, .textSchoolAside{
+	font-family: Arial;
+}
+.textSchoolAside{
+
+	font-style: italic;
+}
+.asideSection p{
+	padding-left: 5px;
+	padding-right: 5px;
+}
 
 @font-face{
 	font-family: 'FuturaLight';
