@@ -1,9 +1,10 @@
-function myFunction(){
-    var search = document.getElementById("search").value;
-    if (search == "Formation" || search == "formation" || search == "profil" || search == "Profil"){
+function mySearchFunction(){
+    var search = document.getElementById("search").value.trim().toLowerCase();
+
+    if (search == "formation" || search == "profil" || search == "cv" || search == "gatien" || search == "formations"){
         window.location = "./pageprofil.html";
-    }else if (search == "Projet" || search == "projet" || search == "portfolio" || search == "Portfolio"){
-        window.location = "file:///C:/Users/gatie/Documents/GitHub/Portfolio/" + search;
+    }else if (search == "projet" || search == "portfolio" || search == "book" || search == "website"){
+        window.location = "./pageprofil.html";
     }else{
         return;
     }
