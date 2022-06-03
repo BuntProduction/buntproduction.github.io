@@ -1,3 +1,4 @@
+//script for the letters animation of the placeholder
 let i = 0;
 let placeholder = "";
 const txt = "Tapez votre recherche ici";

@@ -1,3 +1,4 @@
+//script for the search function
 function mySearchFunction(){
     var search = document.getElementById("search").value.trim().toLowerCase();
 
