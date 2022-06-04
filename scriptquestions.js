@@ -11,3 +11,7 @@ document.getElementById("buttonQuestions3").onclick = function() {myButtonFuncti
 function myButtonFunction3(){
   document.getElementById("myAnswers3").classList.toggle("show");
 }
+document.getElementById("buttonQuestions4").onclick = function() {myButtonFunction4()};
+function myButtonFunction4(){
+  document.getElementById("myAnswers4").classList.toggle("show");
+}

@@ -145,7 +145,6 @@ td:hover a{
 }
 .photoProfil{
 	width: 500px;
-	border-bottom: 2px solid #E3E3E3;
 }
 .textAside, .textSchoolAside{
 	font-family: Arial;
@@ -167,6 +166,10 @@ td:hover a{
 }
 
 /*questions menu*/
+.titleQuestions{
+	font-size: 20px;
+	font-weight: bold;
+}
 .questions-content{
 	text-align: left;
 	display: none;
@@ -230,6 +233,25 @@ td:hover a{
 	border: none;
 }*/
 
+/*footer*/
+.nextPage{
+	display: block;
+	margin-top: 10%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+	border: 1px solid grey;
+	background-color: white;
+	padding-left: 7%;
+	padding-right: 7%;
+	color: #4285F4;
+	font-size: 20px;
+}
+.nextPage:hover{
+	background-color: #E3E3E3;
+	cursor: pointer;
+}
 /*fonts*/
 @font-face{
 	font-family: 'FuturaLight';
