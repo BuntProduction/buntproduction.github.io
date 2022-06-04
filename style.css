@@ -129,13 +129,10 @@
 }
 
 
-@media all and (max-width:  650px){
+@media all and (max-width:  670px){
 	.searchbar{
 		width:  80%;
 	}
-}
-@media all and (max-width:  1424px) and (min-width:  1025px){
-	
 }
 
 @font-face{

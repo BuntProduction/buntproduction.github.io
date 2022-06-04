@@ -258,6 +258,7 @@ td:hover a{
 	background-color: #E3E3E3;
 	cursor: pointer;
 }
+
 /*fonts*/
 @font-face{
 	font-family: 'FuturaLight';
@@ -273,6 +274,9 @@ td:hover a{
 	.articleTopSection{
 		margin-top: 3%;
 	}
+	.asideSection{
+		margin-right: 10%;
+	}
 }
 @media (max-width:  1080px){
 	.articleTopSection{
@@ -283,9 +287,6 @@ td:hover a{
 	.articleTopSection{
 		margin-top: 9%;
 	}
-	.listArticleSection{
-
-	}
 	.asideSection{
 		width: 90%;
 		margin-bottom: 15px;
@@ -293,5 +294,10 @@ td:hover a{
 	.questionsDiv{	
 
 		min-width: 350px;
+	}
+}
+@media (max-width:  450px){
+	.articleTopSection{
+		margin-top: 11%;
 	}
 }
