@@ -287,6 +287,9 @@ td:hover a{
 	.articleTopSection{
 		margin-top: 6%;
 	}
+	.titlestyle{
+		font-size: 2.7em;
+	}
 }
 @media all and (max-width:  600px){
 	.articleTopSection{
@@ -316,9 +319,10 @@ td:hover a{
 	
 }
 @media all and (max-width:  450px){
-	.articleTopSection{
-	}
+	
 	.searchbar{
 		width: 25%;
+		margin-left: 90px;	
 	}
+
 }
