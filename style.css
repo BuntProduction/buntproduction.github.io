@@ -29,7 +29,7 @@
 	margin: auto;
 	margin-top: -3%;
 	border: 1px grey solid;
-	width: 30%;
+	width: 45%;
 	border-radius: 15px;
 	overflow: hidden;
 }
@@ -89,6 +89,7 @@
   	margin-top: 1%;
   	font-family: Arial;
   	font-style: italic;
+  	min-width: 300px;	
 }
 .suggestions-content a{
 	border-bottom: 1px solid #e3e3e3;
@@ -114,9 +115,7 @@
 }
 
 @media all and (max-width:  1024px){
-	.searchbar{
-		width:  80%;
-	}
+	
 	.titlestyle{
 		font-size: 6em;
 		margin-top: 8%;
@@ -128,15 +127,15 @@
 	font-size: 1.3em;
 	}
 }
+
+
 @media all and (max-width:  650px){
 	.searchbar{
-		width:  90%;
+		width:  80%;
 	}
 }
 @media all and (max-width:  1424px) and (min-width:  1025px){
-	.searchbar{
-		width:  50%;
-	}
+	
 }
 
 @font-face{
