@@ -258,7 +258,8 @@ td:hover a{
 	padding-right: 7%;
 	color: #4285F4;
 	font-size: 20px;
-	min-width: 220px;
+	min-width: 300px;
+	text-decoration: none;
 }
 .nextPage:hover{
 	background-color: #E3E3E3;
@@ -350,7 +351,7 @@ td:hover a{
 	
 	.searchbar{
 		overflow: hidden;
-		width: 22%;
+		width: 18%;
 		margin-left: 120px;
 	}
 	.articleTopSection{
