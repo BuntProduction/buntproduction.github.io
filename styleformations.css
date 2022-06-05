@@ -12,7 +12,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-left: 20px;
+	
 
 }
 .formation{
@@ -27,6 +27,7 @@
 	text-align: center;
 	border-radius: 8px;
 	transition: 1s;
+	padding: 10px;
 
 }
 
@@ -65,10 +66,16 @@
 #logoCsharpId{
 	margin-top: -10px;
 	width: 85px;
+	margin-right: -10px;
 }
 #logoAdobeId{
 	width: 50px;
 	margin-top: 10px;
+}
+#logoContactID{
+	margin-top: -14px;
+	margin-right: -5px;
+	width: 60px;
 }
 
 .hrFormations{
@@ -79,6 +86,46 @@
 	border:  none;
 	margin-top: 4%;
 }
+
+/*Image Menu*/
+.imagesDiv{
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: Arial;
+	border-bottom: 1px solid #e3e3e3;
+
+}
+.imagesDiv:hover{
+	border-bottom: 1px solid grey;
+	cursor: pointer;
+}
+.imagesDiv:hover .arrowImg{
+	transform: rotate(90deg);
+	transition: 0.5s;
+}
+
+/*Screenshots*/
+
+.imgRetro{
+	width: 30%;
+}
+.imgRetro:active{
+	transition: 1s;
+	width: 50%;
+}
+.imgRetroPlayStore{
+	float: right;
+	width: 60%;
+}
+.imgRetroPlayStore:active{
+	transition: 1s;
+	width: 70%;
+}
+.linkProjects{
+	font-family: 'FuturaBook';
+	font-size: 18px;
+}
+
 /*fonts*/
 @font-face{
 	font-family: 'FuturaLight';

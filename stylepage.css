@@ -35,8 +35,8 @@
 	width: 28%;
 	border-radius: 15px;
 	overflow: hidden;
-	min-width: 290px;
 }
+
 #search{
 	margin-left: 10px;
 	border-style: hidden;
@@ -290,6 +290,7 @@ td:hover a{
 		margin-right: 10%;
 	}
 }
+
 @media all and (max-width:  1080px){
 	.articleTopSection{
 		margin-top: 6%;
@@ -301,19 +302,22 @@ td:hover a{
 		padding-right: 100px;
 	}
 }
+
 @media all and (max-width:  600px){
 	.articleTopSection{
-		margin-top: 9%;
+		margin-top: 40px;
 	}
 	.asideSection{
-		width: 85%;
+		float: left;
+		margin: auto;
+		width: 95%;
 		margin-bottom: 15px;
 	}
 	.questionsDiv{	
 		min-width: 350px;
 	}
 	.listArticleSection{
-		width: 80%;
+		width: 70%;
 	}
 	table{
 		margin-left: 6%;
@@ -333,13 +337,19 @@ td:hover a{
 	}
 	
 }
-@media all and (max-width:  450px){
-	
-	.searchbar{
-		width: 25%;
-		margin-left: 120px;
 
-		min-width: 230px;
+@media all and (max-width:  570px){
+	.articleTopSection{
+		margin-top: 50px;
+	}
+	.searchbar{
+		overflow: hidden;
+		width: 80%;
+		margin-left: 170px;
+
+	}
+	.titlestyle{
+		font-size: 2em;
 	}
 	.searchButton{
 		width: 1.2em;
@@ -350,18 +360,36 @@ td:hover a{
 	.asideSection{
 		margin-right: -16px;
 	}
-
+	td{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.questionsDiv{	
+		min-width: 320px;
+	}
+	.listArticleSection li{
+		max-width: 80%;
+	}
 }
+
+@media all and (max-width:  420px){
+	#search{
+		margin-left: 2px;
+		font-size: 13;
+	}
+}
+
 @media all and (max-width:  370px){
 	
+	td{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
 	.searchbar{
 		overflow: hidden;
 		width: 18%;
-		margin-left: 110px;
-		min-width: 200px;
-	}
-	.articleTopSection{
-		margin-top:  12%
+		margin-left: 90px;
+		min-width: 230px;
 	}
 
 
