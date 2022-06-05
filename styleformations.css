@@ -7,7 +7,9 @@
 	overflow: visible;
 	min-width: 400px;
 }
-
+#skillsDef{
+	margin-top:  1%;
+}
 #conteneur{
 	display: flex;
 	flex-wrap: wrap;
@@ -124,6 +126,12 @@
 .linkProjects{
 	font-family: 'FuturaBook';
 	font-size: 18px;
+}
+.imgSkin{
+	width: 100%;
+}
+.imgSkin2{
+	width: 49%;
 }
 
 /*fonts*/

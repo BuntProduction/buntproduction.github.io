@@ -35,6 +35,7 @@
 	width: 28%;
 	border-radius: 15px;
 	overflow: hidden;
+	min-width: 300px;
 }
 
 #search{
@@ -252,7 +253,7 @@ td:hover a{
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 15px;
-	border: 1px solid grey;
+	border: 1px solid #E3E3E3;
 	background-color: white;
 	padding-left: 7%;
 	padding-right: 7%;
@@ -343,13 +344,17 @@ td:hover a{
 		margin-top: 50px;
 	}
 	.searchbar{
+		min-width: 200px;
 		overflow: hidden;
 		width: 80%;
-		margin-left: 170px;
+		margin-left: 100px;
+
+	margin-top: -50px;
 
 	}
 	.titlestyle{
 		font-size: 2em;
+		width: 100px;
 	}
 	.searchButton{
 		width: 1.2em;
