@@ -338,6 +338,11 @@ td:hover a{
 	.searchbar{
 		width: 25%;
 		margin-left: 120px;
+
+		min-width: 230px;
+	}
+	.searchButton{
+		width: 1.2em;
 	}
 	#search{
 		font-size: 15px;
@@ -352,7 +357,8 @@ td:hover a{
 	.searchbar{
 		overflow: hidden;
 		width: 18%;
-		margin-left: 120px;
+		margin-left: 110px;
+		min-width: 200px;
 	}
 	.articleTopSection{
 		margin-top:  12%
