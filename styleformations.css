@@ -1,0 +1,109 @@
+
+.formationsDef{
+	margin-top: 3%;
+	margin-left: 3%;
+	font-family: 'FuturaBook', Arial;
+	font-size: 2em;
+	overflow: visible;
+	min-width: 400px;
+}
+
+#conteneur{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 20px;
+
+}
+.formation{
+	min-width: 240px;
+	justify-content: center;
+	background-color: white;
+	flex: 1;
+	border: 2px solid #e3e3e3;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	border-radius: 8px;
+	transition: 1s;
+
+}
+
+.formation:hover{
+	cursor: default;
+	width: +10%;
+	transition: 1s;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.formation p{
+	font-family: 'FuturaLight', Arial;
+}
+.titreFormation{
+	font-family: 'FuturaBook', Arial;
+	font-size: 18px;
+}
+
+.logoFlexbox{
+	width: 50px;
+	overflow: hidden;
+	float: right;
+	margin-right: 10%;
+	margin-left: -100px;
+}
+#logoHtmlId{
+	width: 70px;
+}
+#logoCssId{
+	width: 44px;
+}
+#logoJsId{
+	width: 115px;
+	margin-right: -5px;
+}
+#logoCsharpId{
+	margin-top: -10px;
+	width: 85px;
+}
+#logoAdobeId{
+	width: 50px;
+	margin-top: 10px;
+}
+
+.hrFormations{
+	width: 85%;
+	height: 1px;
+	background-color: #E3E3E3;
+	border-style: inset; 
+	border:  none;
+	margin-top: 4%;
+}
+/*fonts*/
+@font-face{
+	font-family: 'FuturaLight';
+	src:  url('FuturaPTLight.otf');
+}
+@font-face{
+	font-family: 'FuturaBook';
+	src:  url('FuturaPTBook.otf');
+}
+
+@media all and (max-width:  1100px)
+{
+	.formationsDef{
+		margin-top: 4%;
+	}
+}
+@media all and (max-width:  840px)
+{
+	.formationsDef{
+		margin-top: 7%;
+	}
+}
+@media all and (max-width:  600px)
+{
+	.formationsDef{
+		margin-top: 11%;
+	}
+}

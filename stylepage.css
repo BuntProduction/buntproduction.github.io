@@ -90,7 +90,7 @@ td:hover a{
 
 .gatienDef{
 	margin-top: 7%;
-	font-family: 'FuturaBold', Arial;
+	font-family: 'FuturaBook', Arial;
 	font-size: 2.3em;
 	font-style: bold;
 	overflow: visible;
@@ -200,7 +200,7 @@ td:hover a{
 	font-family: Arial;
 	border-bottom: 1px solid #e3e3e3;
 	width: 30%;
-	min-width: 400px;
+
 }
 .questionsDiv:hover{
 	border-bottom: 1px solid grey;
@@ -240,6 +240,11 @@ td:hover a{
 }*/
 
 /*footer*/
+#footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
 .nextPage{
 	display: block;
 	margin-top: 10%;
@@ -253,6 +258,7 @@ td:hover a{
 	padding-right: 7%;
 	color: #4285F4;
 	font-size: 20px;
+	min-width: 220px;
 }
 .nextPage:hover{
 	background-color: #E3E3E3;
@@ -299,7 +305,7 @@ td:hover a{
 		margin-top: 9%;
 	}
 	.asideSection{
-		width: 90%;
+		width: 85%;
 		margin-bottom: 15px;
 	}
 	.questionsDiv{	
@@ -336,7 +342,6 @@ td:hover a{
 		font-size: 15px;
 	}
 	.asideSection{
-		position: absolute;
 		margin-right: -16px;
 	}
 
@@ -344,8 +349,12 @@ td:hover a{
 @media all and (max-width:  370px){
 	
 	.searchbar{
-		width: 25%;
+		overflow: hidden;
+		width: 22%;
 		margin-left: 120px;
+	}
+	.articleTopSection{
+		margin-top:  12%
 	}
 
 
