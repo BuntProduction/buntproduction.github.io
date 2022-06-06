@@ -33,16 +33,21 @@
 	padding-left: 12px;
 	padding-top: 12px;
 
+
+}
+.formation h2{
+	font-size: 20px;
 }
 
 .formation:hover{
 	cursor: default;
 	transition: 1s;
-	padding-left: 1.1%;
-	padding-right: 1.1%;
+	padding-left: 0.8%;
+	padding-right: 0.8%;
 }
 .formation p{
-	font-family: 'FuturaLight', Arial;
+	font-family: 'Roboto', Arial;
+	font-size: 16px;
 }
 .titreFormation{
 	font-family: 'FuturaBook', Arial;
@@ -101,6 +106,7 @@
 #logoPdfId{
 	margin-right: 13px;
 	width: 50px;
+	margin-top: -10px;
 }
 #logoHtmlId2{
 	width: 70px;
@@ -186,6 +192,10 @@
 	font-family: 'FuturaBook';
 	src:  url('FuturaPTBook.otf');
 }
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src:  url('Roboto-Light.ttf');
+} 
 
 @media all and (max-width:  1100px)
 {

@@ -385,6 +385,11 @@ td:hover a{
 		margin-left: 2px;
 		font-size: 13;
 	}
+
+	.searchbar{
+		margin-left: 90px;
+		min-width: 220px;
+	}
 }
 
 @media all and (max-width:  390px){
@@ -393,12 +398,15 @@ td:hover a{
 		padding-right: 10px;
 		padding-left: 10px;
 	}
-	.searchbar{
-		overflow: hidden;
-		width: 18%;
-		margin-left: 90px;
-		min-width: 230px;
-	}
 
+}
+@media all and (max-width:  330px){
+	
+	.searchbar{
+		min-width: 200px;
+	}
+	#search{
+		font-size: 14px;
+	}
 
 }
