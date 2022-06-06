@@ -305,6 +305,7 @@ td:hover a{
 	.nextPage{
 		margin-top: 10px;
 	}
+
 }
 
 @media all and (max-width:  600px){
@@ -347,9 +348,9 @@ td:hover a{
 		margin-top: 50px;
 	}
 	.searchbar{
-		min-width: 200px;
+		min-width: 220px;
 		overflow: hidden;
-		width: 80%;
+		width: 60%;
 		margin-left: 100px;
 
 	margin-top: -50px;
@@ -378,17 +379,24 @@ td:hover a{
 	.listArticleSection li{
 		max-width: 80%;
 	}
+	.headersearch{
+	padding-right: 0px;
+}
 }
 
 @media all and (max-width:  420px){
 	#search{
 		margin-left: 2px;
-		font-size: 13;
+		font-size: 14px;
 	}
 
 	.searchbar{
 		margin-left: 90px;
 		min-width: 220px;
+	}
+	td{
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 }
 
