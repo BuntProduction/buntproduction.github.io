@@ -57,27 +57,69 @@
 }
 #logoHtmlId{
 	width: 70px;
+	margin-top: -20px;
+	margin-right: -10px;
 }
 #logoCssId{
 	width: 44px;
+	margin-right: 2px;
+	margin-top: -17px;
 }
 #logoJsId{
 	width: 115px;
-	margin-right: -5px;
+	margin-right: -28px;
+	margin-top: -18px;
 }
 #logoCsharpId{
-	margin-top: -10px;
+	margin-top: -30px;
 	width: 85px;
-	margin-right: -10px;
+	margin-right: -13px;
 }
 #logoAdobeId{
 	width: 50px;
-	margin-top: 10px;
+	margin-top: -10px;
+	margin-right: 5px;
 }
-#logoContactID{
-	margin-top: -14px;
-	margin-right: -5px;
+#logoContactId{
+	margin-top: -4px;
+	margin-right: 8px;
 	width: 60px;
+}
+#logoBlenderId
+{
+	margin-top: -10px;
+	margin-right: 1px;
+	width: 66px;
+}
+#logoGitHubId{
+	margin-right: 13px;
+}
+#logoLinkedinId{
+	margin-right: 13px;
+}
+#logoPdfId{
+	margin-right: 13px;
+	width: 50px;
+}
+#logoHtmlId2{
+	width: 70px;
+	margin-top: -10px;
+	margin-right: -10px;
+}
+#logoCsharpId2{
+	margin-top: -20px;
+	width: 85px;
+	margin-right: -13px;
+}
+#logoAsepriteId{
+	width: 70px;
+	margin-top: -10px;
+	margin-right: 5px;
+}
+#logoAdobeId2{
+	width: 50px;
+	margin-top: -16px;
+	margin-right: 10px;
 }
 
 .hrFormations{
@@ -152,6 +194,14 @@
 }
 @media all and (max-width:  840px)
 {
+	.imgRetro:active{
+	transition: 0s;
+	width: 30%;
+}
+	.imgRetroPlayStore:active{
+	transition: 0s;
+	width: 60%;
+}
 	.formationsDef{
 		margin-top: 7%;
 	}
