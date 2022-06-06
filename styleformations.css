@@ -29,16 +29,17 @@
 	text-align: center;
 	border-radius: 8px;
 	transition: 1s;
-	padding: 10px;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-top: 12px;
 
 }
 
 .formation:hover{
 	cursor: default;
-	width: +10%;
 	transition: 1s;
-	padding-left: 1%;
-	padding-right: 1%;
+	padding-left: 1.1%;
+	padding-right: 1.1%;
 }
 .formation p{
 	font-family: 'FuturaLight', Arial;
@@ -113,7 +114,7 @@
 }
 #logoAsepriteId{
 	width: 70px;
-	margin-top: -10px;
+	margin-top: -25px;
 	margin-right: 5px;
 }
 #logoAdobeId2{
@@ -194,6 +195,12 @@
 }
 @media all and (max-width:  840px)
 {
+	.formation:hover{
+	cursor: default;
+	transition: 1s;
+	padding-left: 12px;
+	padding-right: 12px;
+}
 	.imgRetro:active{
 	transition: 0s;
 	width: 30%;
@@ -204,6 +211,12 @@
 }
 	.formationsDef{
 		margin-top: 7%;
+	}
+}
+@media all and (max-width:  632px)
+{
+	#footer{
+		flex-wrap: wrap-reverse;
 	}
 }
 @media all and (max-width:  600px)

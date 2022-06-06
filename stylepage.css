@@ -248,7 +248,6 @@ td:hover a{
 }
 .nextPage{
 	display: block;
-	margin-top: 10%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -301,6 +300,10 @@ td:hover a{
 	}
 	.questionsSection{
 		padding-right: 100px;
+	}
+	
+	.nextPage{
+		margin-top: 10px;
 	}
 }
 
