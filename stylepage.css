@@ -348,11 +348,10 @@ td:hover a{
 		margin-top: 50px;
 	}
 	.searchbar{
-		min-width: 220px;
-		overflow: hidden;
+		min-width: 250px;
 		width: 60%;
 		margin-left: 100px;
-
+		max-height: 20px;
 	margin-top: -50px;
 
 	}
@@ -361,7 +360,7 @@ td:hover a{
 		width: 100px;
 	}
 	.searchButton{
-		width: 1.2em;
+		width: 1em;
 	}
 	#search{
 		font-size: 15px;
@@ -381,18 +380,19 @@ td:hover a{
 	}
 	.headersearch{
 	padding-right: 0px;
-}
+	}
 }
 
-@media all and (max-width:  420px){
+@media all and (max-device-width:  480px){
 	#search{
+
 		margin-left: 2px;
 		font-size: 14px;
 	}
 
 	.searchbar{
 		margin-left: 90px;
-		min-width: 220px;
+		min-width: 240px;
 	}
 	td{
 		padding-right: 10px;
@@ -405,6 +405,10 @@ td:hover a{
 	td{
 		padding-right: 10px;
 		padding-left: 10px;
+	}
+	.searchbar{
+		margin-left: 90px;
+		min-width: 220px;
 	}
 
 }
