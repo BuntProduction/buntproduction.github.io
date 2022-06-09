@@ -28,6 +28,10 @@ function mySearchFunction(){
         
             window.location = "./pageprofil.html";
         break;
+        case 'photo':
+        
+            window.location = "./pageprofil.html";
+        break;
 
 
 //words for the formation page
@@ -71,6 +75,10 @@ function mySearchFunction(){
         
             window.location = "./pageformations.html";
         break;
+        case 'developer':
+        
+            window.location = "./pageformations.html";
+        break;
 
 //words for the project page
         case 'projet':
@@ -89,9 +97,25 @@ function mySearchFunction(){
         
             window.location = "./pageprojects.html";
         break;
-        case 'crréations':
+        case 'créations':
         
             window.location = "./pageprojects.html";
+        break;
+        case 'creations':
+        
+        window.location = "./pageprojects.html";
+        break;
+        case 'website':
+        
+        window.location = "./pageprojects.html";
+        break;
+        case 'siteweb':
+        
+        window.location = "./pageprojects.html";
+        break;
+        case 'jeu':
+        
+        window.location = "./pageprojects.html";
         break;
 
 //words for the contact page
@@ -132,6 +156,10 @@ function mySearchFunction(){
             window.location = "./pagecontact.html";
         break;
         case 'cv':
+        
+            window.location = "./pagecontact.html";
+        break;
+        case 'contact':
         
             window.location = "./pagecontact.html";
         break;
