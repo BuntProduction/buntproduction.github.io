@@ -288,7 +288,7 @@ td:hover a{
 	}
 	.asideSection{
 		margin-right: 1%;
-		max-width: 400px;
+		width: 35%;
 	}
 }
 
